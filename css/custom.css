@@ -1,3 +1,7 @@
+body
+{
+	background-color: black;
+}
 .navbar-default
 {
 		background-color: #474747;
@@ -92,7 +96,8 @@ header
 		height: 800px;
 		text-align: center;
 		padding-top: 75px;
-		background: url(http://progress910.com/wp-content/uploads/2014/04/soccer_ball.jpg);
+		/*background: url(http://westernknights.com.au/wp-content/uploads/2015/03/grass-field-soccer-ball.jpg);*/
+		background-color: black;
 }
 
 .rafc
@@ -115,10 +120,10 @@ header p
 		font-size: 1.5em;
 		color: #fff;
 		font-family: 'Open Sans' , sans-serif;
+
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px){
 		.navbar-default .navbar-nav > li > a 
 		{
 			width: 100%;
